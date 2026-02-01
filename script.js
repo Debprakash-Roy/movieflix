@@ -1,4 +1,4 @@
-const API_KEY = "940d6ddf129e8f23c84494ff5b55bff4";
+const API_KEY = "41efdffdf7bc4a0ec17af61c8bbe016c";
 const BASE_URL = "https://api.themoviedb.org/3";
 const IMG_URL = "https://image.tmdb.org/t/p/w500";
 
@@ -86,3 +86,4 @@ document.getElementById("favBtn").onclick = () => {
 document.getElementById("themeToggle").onclick = () => {
   document.body.classList.toggle("light");
 };
+

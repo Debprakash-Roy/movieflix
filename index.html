@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MovieFlix</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🎬 MovieFlix</h1>
+
+  <div class="controls">
+    <input type="text" id="search" placeholder="Search movies...">
+    <button id="themeToggle">🌙</button>
+    <button id="favBtn">❤️</button>
+  </div>
+</header>
+
+<main id="movie-container"></main>
+
+<!-- MODAL -->
+<div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <span id="close">&times;</span>
+    <img id="modal-img">
+    <div class="modal-info">
+      <h2 id="modal-title"></h2>
+      <p id="modal-desc"></p>
+      <p><strong>Rating:</strong> <span id="modal-rating"></span></p>
+      <button id="addFav">❤️ Add to Favorites</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -92,26 +92,23 @@ Run using **Live Server** in Visual Studio Code.
 ---
 
 ## 📸 Preview
-
-> Add screenshots after uploading them.
-
 ### Home Page
 
-```
-Screenshot Here
-```
+
+![Home Page](home.png)
+
 
 ### Movie Details
 
-```
-Screenshot Here
-```
+
+![Movie Details](movie-details.png)
+
 
 ### Dark Mode
 
-```
-Screenshot Here
-```
+
+![Dark Mode](dark-mode.png)
+
 
 ---
 
